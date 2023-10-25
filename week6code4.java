@@ -18,9 +18,7 @@ public class week6code4 {
 		{
 			return n;
 		}
-		long oneBef = recFib(n-1);
-		long twoBef = recFib(n-2);
-		return  oneBef+twoBef;
+		return  recFib(n-1) + recFib(n-2);
 	}
 	public static long itFib(long n)
 	{
